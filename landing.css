@@ -1,0 +1,214 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #fef6f1;
+    color: #4b3f3d;
+    overflow-x: hidden;
+  }
+  
+  h1, h2 {
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('path/to/forest-or-castle-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero-heading {
+    font-size: 4rem;
+    color: lavender;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #fff, 0 0 20px lavender;
+  }
+  
+  .cta-button {
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    background-color: #fad02e;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 5px #fad02e;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    box-shadow: 0 0 40px 15px #fad02e;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Project Showcase Section */
+  .projects {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f0e5d8;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #4b3f3d;
+    margin-bottom: 40px;
+  }
+  
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .card {
+    background: #fef6f1;
+    border: 2px solid #e0c0a1;
+    padding: 30px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1), 0 0 20px 10px rgba(250, 200, 46, 0.5);
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    color: #4b3f3d;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  /* Contact Form Section */
+  .contact {
+    background-color: #f8f1e7;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    font-size: 1.2rem;
+    color: #4b3f3d;
+    text-transform: uppercase;
+  }
+  
+  .form-input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .submit-button {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #fad02e;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 20px 5px #fad02e;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #f5a623;
+    box-shadow: 0 0 30px 10px #f5a623;
+  }
+  
+/* Footer Section */
+footer {
+    padding: 30px 0;
+    background-color: #4b3f3d;
+    text-align: center;
+  }
+  
+  /* Social Links Container */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  /* Social Icon Style */
+  .social-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  /* Hover Effect for Social Icon (Text & Logo) */
+  .social-icon:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fad02e;
+  }
+  
+  /* Instagram Specific Styles */
+  .instagram {
+    position: relative;
+    text-shadow: 0 0 10px lavender, 0 0 20px lavender;
+  }
+  
+  /* LinkedIn Specific Styles */
+  .linkedin {
+    position: relative;
+    text-shadow: 0 0 10px lavender, 0 0 20px lavender;
+  }
+  
+  /* Styling for Social Logos */
+  .social-logo {
+    width: 30px;  /* Adjust the size of the icons */
+    height: 30px;
+    margin-right: 10px; /* Space between logo and text */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover Effect for Social Logos */
+  .social-icon:hover .social-logo {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  }
+  
+  
