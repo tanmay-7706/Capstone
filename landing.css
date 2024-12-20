@@ -197,6 +197,26 @@ footer {
     position: relative;
     text-shadow: 0 0 10px lavender, 0 0 20px lavender;
   }
+  /* GitHub Specific Styles */
+  .github {
+    position: relative;
+    text-shadow: 0 0 10px lavender, 0 0 20px lavender;
+  }
+  /* WhatsApp Specific Styles */
+  .whatsapp {
+    position: relative;
+    text-shadow: 0 0 10px lavender, 0 0 20px lavender;
+  }
+  /* Twitter Specific Styles */
+  .twitter {
+    position: relative;
+    text-shadow: 0 0 10px lavender, 0 0 20px lavender;
+  }
+  /* Telegram Specific Styles */
+  .telegram {
+    position: relative;
+    text-shadow: 0 0 10px lavender, 0 0 20px lavender;
+  }
   
   /* Styling for Social Logos */
   .social-logo {
